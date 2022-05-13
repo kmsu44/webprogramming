@@ -49,8 +49,8 @@ body{
     height: 50px;
 }
 #content{
-    width: 600px;
-    height: 600px;
+    width: 50%;
+    height: 50%px;
     margin: auto;
     margin-top: 25px;
     display: grid;
