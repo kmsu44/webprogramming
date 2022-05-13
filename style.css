@@ -56,7 +56,7 @@ body{
 }
 
 #content{
-    width: 80%;
+    width: 100vw;
     height: 60vh;
     max-width: 600px;
     margin: auto;
@@ -71,10 +71,9 @@ body{
     width: 100%;
 }
 #btncontainer button{
-    position: relative;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     margin: auto;
     background-color: white;
     border: 2px solid black;
@@ -87,5 +86,4 @@ body{
 footer{
     position: relative;
     text-align: right;
-    z-index: 0;
 }
