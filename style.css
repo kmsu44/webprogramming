@@ -39,6 +39,7 @@ body{
     height: 50px;
     background-color: white;
     border: 2px solid black;
+    font-size: 30px;
 }
 #startbtn:hover{
     background-color: blue;
