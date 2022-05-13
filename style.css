@@ -2,6 +2,9 @@ body{
     margin: 0;
     color: black
 }
+#box{
+    width: 100%
+}
 #header{
     position: relative;
     background-color: black;
@@ -44,6 +47,8 @@ body{
     background-color: white;
     border: 2px solid black;
     font-size: 30px;
+    color:black;
+    text-align: center;
 }
 #startbtn:hover{
     background-color: blue;
@@ -56,7 +61,7 @@ body{
 }
 
 #content{
-    width: 100vw;
+    width: 80%;
     height: 60vh;
     max-width: 600px;
     margin: auto;
@@ -79,6 +84,7 @@ body{
     border: 2px solid black;
     font-size: 1.5em;
     color: black;
+    text-align: center;
 }
 #btncontainer button:hover{
     color:gray;

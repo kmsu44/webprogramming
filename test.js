@@ -34,7 +34,7 @@ function stopbtn_click(){
 }
 function startbtn_click(){
     reset();
-    points.sort(function(a, b){return 0.8 - Math.random()});
+    points.sort(function(a, b){return 0.5 - Math.random()});
     cnt = 1;
 
     //초록색 배경으로 변경
