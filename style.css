@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    color: black
 }
 #header{
     position: relative;
@@ -48,28 +49,37 @@ body{
     width: 100px;
     height: 50px;
 }
-#contentbox{
-    width: 80%;
-    height: 50vh;
-    margin: auto;
-}
 
 #content{
     width: 80%;
-    height: 100%;
+    height: 80%;
     margin: auto;
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
 }
-#content button{
-    background-color: white;
-    border: 2px solid black;
+
+#btncontainer{
+    position: relative;
+    width: 100%;
     margin: 0.5px;
     font-size: 30px;
 }
-#content button:hover{
+#btncontainer:after {
+    display: block;
+    content: "";
+    padding-bottom: 100%;
+  }
+#btncontainer button{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+#btncontainer button:hover{
     color:gray;
 }
 footer{
